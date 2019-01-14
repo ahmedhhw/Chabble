@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_form"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/tv_errors"
+            android:text="Please fill in data:"
+            android:layout_marginTop="10dp"/>
+    <EditText
+        android:paddingTop="@dimen/text_padding_top_and_Bottom"
+        android:paddingBottom="@dimen/text_padding_top_and_Bottom"
+        android:textSize="@dimen/text_size_for_textboxes"
+        android:background="@drawable/text"
+        android:id="@+id/et_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/seperation"
+        android:ems="10"
+        android:hint="@string/prompt_first_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/text_padding_left" />
+    <EditText
+        android:paddingTop="@dimen/text_padding_top_and_Bottom"
+        android:paddingBottom="@dimen/text_padding_top_and_Bottom"
+        android:textSize="@dimen/text_size_for_textboxes"
+        android:background="@drawable/text"
+        android:id="@+id/et_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/seperation"
+        android:ems="10"
+        android:hint="@string/prompt_last_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/text_padding_left"/>
+    <EditText
+        android:paddingTop="@dimen/text_padding_top_and_Bottom"
+        android:paddingBottom="@dimen/text_padding_top_and_Bottom"
+        android:textSize="@dimen/text_size_for_textboxes"
+        android:background="@drawable/text"
+        android:id="@+id/et_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/seperation"
+        android:ems="10"
+        android:hint="@string/prompt_display_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/text_padding_left"/>
+    <EditText
+        android:paddingTop="@dimen/text_padding_top_and_Bottom"
+        android:paddingBottom="@dimen/text_padding_top_and_Bottom"
+        android:textSize="@dimen/text_size_for_textboxes"
+        android:background="@drawable/text"
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/seperation"
+        android:ems="10"
+        android:hint="@string/prompt_email"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/text_padding_left"/>
+    <EditText
+        android:paddingTop="@dimen/text_padding_top_and_Bottom"
+        android:paddingBottom="@dimen/text_padding_top_and_Bottom"
+        android:textSize="@dimen/text_size_for_textboxes"
+        android:background="@drawable/text"
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/seperation"
+        android:ems="10"
+        android:hint="@string/prompt_password"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/text_padding_left"/>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/seperation"
+        android:onClick="signUpClicked"
+        android:textStyle="bold"
+        android:text="Sign Up"
+        android:textSize="20dp"/>
+    <TextView
+        android:paddingLeft="@dimen/text_padding_left"
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="switchToLogIn"
+        android:text="Login"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+        />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "366440501489",
+    "firebase_url": "https://chat-bubble-207dd.firebaseio.com",
+    "project_id": "chat-bubble-207dd",
+    "storage_bucket": "chat-bubble-207dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366440501489:android:667dc29878a57ca7",
+        "android_client_info": {
+          "package_name": "com.doublea.talktify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366440501489-f8lak0eqpffau9s90vi3b9qe651hcovl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.doublea.talktify",
+            "certificate_hash": "c3adc3c71f55863983b3db45b9d330339f1e6064"
+          }
+        },
+        {
+          "client_id": "366440501489-j42grpo8veomrruvd18hble2s3ipvks3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjzAzlsgdQDiUKr4x04I7d1UqXuckbn34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366440501489-j42grpo8veomrruvd18hble2s3ipvks3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

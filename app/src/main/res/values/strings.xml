@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Chabble</string>
+
+    <!-- Strings related to login -->
+
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--Strings related to Signup-->
+    <string name="prompt_display_name">Display Name</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+
+    <!--Strings related to Sign in and Sign up-->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_signed_in">activity_signed_in</string>
+
+
+    <string name="title_activity_search_contacts">searchContacts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
