@@ -12,9 +12,14 @@ import android.widget.EditText;
 
 import com.doublea.talktify.backgroundTools.CompletionListener;
 import com.doublea.talktify.backgroundTools.FireBaseInteraction;
+import com.doublea.talktify.backgroundTools.FirebaseReadListener;
 import com.doublea.talktify.backgroundTools.UserData;
 import com.doublea.talktify.backgroundTools.ContactAddListener;
 import com.google.firebase.database.DataSnapshot;
+
+import java.util.ArrayList;
+
+import static com.doublea.talktify.activity_signed_in.allMessages;
 
 public class activity_search_contacts extends AppCompatActivity implements fragment_contact_search_view.OnFragmentInteractionListener {
     private static final String TAG = "dbg";
@@ -84,7 +89,7 @@ public class activity_search_contacts extends AppCompatActivity implements fragm
 
         //Initialize variables
         UserData userData = null;
-        FragmentManager fragmentManager = getSupportFragmentManager();
+        final FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         String userEntry = etSearch.getText().toString();
 
